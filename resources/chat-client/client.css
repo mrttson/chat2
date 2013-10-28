@@ -1,0 +1,46 @@
+#pre-connect{
+  color:lightgray;
+  font-style:italic;
+}
+
+#title{
+  color:blue;
+}
+
+#messages{
+  border:1px solid lightgray;
+  border-radius:5px;
+  margin:10px;
+  padding:10px;
+  min-height:300px;
+  max-width:600px;
+}
+
+div.in-message{
+  font-size:11pt;
+  color:green;
+}
+
+div.out-message{
+  font-size:11pt;
+  color:black;
+}
+
+div.info-message{
+  font-size:11pt;
+  color:green;
+}
+
+div.panel{
+  margin:8px;
+}
+
+#outgoing-message{
+  width:400px;
+  border-radius:5px;
+}
+
+#username{
+  width:200px;
+  border-radius:5px;
+}

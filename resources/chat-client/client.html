@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Chat Room</title>
+    <link rel="stylesheet" type="text/css" href="client.css">
+  </head>
+  <body>
+    <div id='messages'>
+      <div id='pre-connect'>Attempting to connect to chat server...</div>
+      <div id='title'></div>
+    </div>
+    <div class="panel">
+      <input type="text" id="outgoing-message" name="outgoing-message" autofocus="autofocus" />
+      <button type="button" id="send" name="send" value="send">Send</button>
+    </div>
+    <div class="panel">
+      Your username:&nbsp;
+      <input type="username" id="username" name="username" />
+      <button type="button" id="change" name="change" value="change">Change</button>
+    </div>
+  </body>
+  <script src="../../node_modules/socket.io/node_modules/socket.io-client/dist/socket.io.js"></script>
+  <script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
+  <script src="../../lib/jquery.watermark.min.js"></script>
+  <script src="client.js"></script>
+</html>
